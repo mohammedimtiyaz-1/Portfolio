@@ -13,6 +13,8 @@ export default class Header extends Component {
           }}
         >
           <Particles
+            className="animationcontainer"
+            maxheight="650px"
             id="tsparticles"
             options={{
               background: {
@@ -147,7 +149,7 @@ export default class Header extends Component {
                   style={{
                     fontFamily: "cursive",
                     fontWeight: "800",
-                    fontSize: "50px",
+                    fontSize: "1.2em",
                     color: "#da3232",
                   }}
                 >
