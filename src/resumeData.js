@@ -43,26 +43,38 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Signify Innovatons Lab (formerly Philips Lighting)",
-      specialization: "Development Engineer | Front End React",
+      CompanyName: "Decathlon",
+      specialization: "Senior Front Developer",
       MonthOfLeaving: "",
+      tech: ["js", "html5", "D3.js", "css3", "git", "github"],
       YearOfLeaving: "...Presently working",
       Achievements: "",
+      leave: "...Presently working",
+      join: "May 2021",
     },
     {
-      CompanyName: "Philips Lighting",
+      CompanyName: "Signify Innovatons Lab (formerly Philips Lighting)",
       specialization: "Development Engineer | Front End React",
-      MonthOfLeaving: "Aug",
-      YearOfLeaving: "2018",
-      Achievements: "Ensured uninterupted CI/CD flow for UI build",
+      join: "Aug 2018",
+      leave: "May 2021",
+      tech: ["js", "html5", "D3.js", "css3", "git", "github"],
+      Achievements: "",
     },
+    // {
+    //   CompanyName: "Philips Lighting",
+    //   specialization: "Development Engineer | Front End React",
+    //   join: "Aug 2018",
+    //   leave: "May 2021",
+    //   Achievements: "Ensured uninterupted CI/CD flow for UI build",
+    // },
     {
       CompanyName: "Philips Lighting",
       specialization: "Intern  | Junior Developer",
-      MonthOfLeaving: "Aug",
-      YearOfLeaving: "2017",
+      join: "Aug 2017",
+      leave: "Aug 2018",
+      tech: ["js", "html5", "D3.js", "css3", "git", "github"],
       Achievements:
-        "Successfully Implemented Fault Visualization Tool for internal team",
+        "Developed  SandBox environment for RESTful APIs that programs the simulation of Sensor devices.Developed Dashboard that generates the query-able  UI report on external CSV energy statistics using D3.js",
     },
   ],
 
@@ -80,33 +92,45 @@ let resumeData = {
       skillname: "Typescript",
     },
     {
-      skillname: "C#",
+      skillname: "React",
     },
-
     {
-      skillname: "Reactjs",
+      skillname: "tailwind",
+    },
+    { skillname: "node" },
+    {
+      skillname: "nextjs",
     },
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "mobileapp",
+      name: "Error And Fault Dashboard Analysis",
+      description:
+        "Developed web app, generates the queryable UI report on external CSV energy statistics using D3.js.",
       imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
     },
     {
       name: "project2",
       description: "mobileapp",
       imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
     },
     {
       name: "project3",
       description: "mobileapp",
       imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
     },
     {
       name: "project4",
       description: "mobileapp",
       imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
     },
   ],
   testimonials: [

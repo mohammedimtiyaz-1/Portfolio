@@ -50,40 +50,20 @@ export default class Resume extends Component {
                         {item.specialization}
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.MonthOfLeaving} {item.YearOfLeaving}
+                          {`${item.join} - ${item.leave}`}
                         </em>
                       </p>
                       <p>{item.Achievements}</p>
+                      <div className="tech">
+                        Tech Stack :{" "}
+                        {item.tech.map((t) => (
+                          <b>{t}</b>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 );
               })}
-          </div>
-        </div>
-
-        <div className="row skill">
-          <div className="three columns header-col">
-            <h1>
-              <span>Skills</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">
-            <div className="bars">
-              <ul className="skills">
-                {resumeData.skills &&
-                  resumeData.skills.map((item) => {
-                    return (
-                      <li key={item.skillname}>
-                        <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}
-                        ></span>
-                        <em>{item.skillname}</em>
-                      </li>
-                    );
-                  })}
-              </ul>
-            </div>
           </div>
         </div>
       </section>

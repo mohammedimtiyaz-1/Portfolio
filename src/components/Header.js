@@ -54,7 +54,7 @@ export default class Header extends Component {
               },
               particles: {
                 color: {
-                  value: "#ffffff",
+                  value: "#38d98194",
                 },
                 links: {
                   color: "#ffffff",
@@ -125,11 +125,11 @@ export default class Header extends Component {
                   projects
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a className="smoothscroll" href="#contact">
                   Contact
@@ -150,7 +150,7 @@ export default class Header extends Component {
                     fontFamily: "cursive",
                     fontWeight: "800",
                     fontSize: "1.2em",
-                    color: "#da3232",
+                    color: "#38d98194",
                   }}
                 >
                   {resumeData.name}

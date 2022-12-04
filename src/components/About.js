@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import srImage from "../../src/img/profilePic_Imtiyaz.jpg";
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -7,31 +8,16 @@ export default class About extends Component {
         <div className="row">
           <div className="three columns">
             <img
+              style={{ width: "20rem", height: "20rem" }}
               className="profile-pic"
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQHLVZB4AQyAyA/profile-displayphoto-shrink_200_200/0/1602740512386?e=1615420800&v=beta&t=CkAwemGHpbE-0nitHRjE4UsHns1d3v4eLNvV3BzQ2Ak"
-              alt=""
+              src={srImage}
+              alt="Profile Pic"
             />
           </div>
 
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>{resumeData.aboutme}</p>
-
-            <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{resumeData.name}</span>
-                  <br />
-
-                  <span>
-                    <i className="fa fa-phone " />
-                    <span> +91 </span>
-                    {resumeData.phone}
-                  </span>
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
