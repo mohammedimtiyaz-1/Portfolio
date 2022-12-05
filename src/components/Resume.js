@@ -53,7 +53,14 @@ export default class Resume extends Component {
                           {`${item.join} - ${item.leave}`}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+
+                      <div>
+                        <ol style={{ paddingLeft: "3rem" }}>
+                          {item.Achievements.map((e) => (
+                            <p>{e}</p>
+                          ))}
+                        </ol>
+                      </div>
                       <div className="tech">
                         Tech Stack :{" "}
                         {item.tech.map((t) => (

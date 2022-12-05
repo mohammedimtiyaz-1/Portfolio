@@ -309,7 +309,12 @@ ul#nav li.current a {
   display: flex;
   gap: 10px;
 }
-
+#resume ol p { 
+  
+  list-style:square outside ;
+     display:list-item; 
+  
+}
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
