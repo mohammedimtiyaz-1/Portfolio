@@ -5,13 +5,13 @@ export default class Resume extends Component {
     return (
       <section id="resume">
         <div className="row education">
-          <div className="three columns header-col">
+          <div className="two columns header-col">
             <h1>
               <span>Education</span>
             </h1>
           </div>
 
-          <div className="nine columns main-col">
+          <div className="ten columns main-col">
             {resumeData.education &&
               resumeData.education.map((item) => {
                 return (
@@ -33,13 +33,13 @@ export default class Resume extends Component {
           </div>
         </div>
         <div className="row work">
-          <div className="three columns header-col">
+          <div className="tow columns header-col">
             <h1>
               <span>Work</span>
             </h1>
           </div>
 
-          <div className="nine columns main-col">
+          <div className="ten columns main-col">
             {resumeData.work &&
               resumeData.work.map((item) => {
                 return (
@@ -55,17 +55,19 @@ export default class Resume extends Component {
                       </p>
 
                       <div>
-                        <ol style={{ paddingLeft: "3rem" }}>
-                          {item.Achievements.map((e) => (
-                            <p>{e}</p>
+                        <div>
+                          <ol style={{ paddingLeft: "3rem" }}>
+                            {item.Achievements.map((e) => (
+                              <p>{e}</p>
+                            ))}
+                          </ol>
+                        </div>
+                        <div className="tech">
+                          Tech Stack :{" "}
+                          {item.tech.map((t) => (
+                            <b>{t}</b>
                           ))}
-                        </ol>
-                      </div>
-                      <div className="tech">
-                        Tech Stack :{" "}
-                        {item.tech.map((t) => (
-                          <b>{t}</b>
-                        ))}
+                        </div>
                       </div>
                     </div>
                   </div>

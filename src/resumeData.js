@@ -156,27 +156,35 @@ let resumeData = {
       url: "https://www.google.com",
     },
   ],
-  testimonials: [
+  certification: [
     {
+      name: "Error And Fault Dashboard Analysis",
       description:
-        "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
-      name: " John F. Woods",
+        "Developed web app, generates the queryable UI report on external CSV energy statistics using D3.js.",
+      imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
     },
     {
-      description:
-        "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning",
-      name: " Albert Einstien",
-    },
-
-    {
-      description:
-        "When I’m working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.",
-      name: " Freeman Dyson",
+      name: "project2",
+      description: "mobileapp",
+      imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
     },
     {
-      description:
-        "Software is a great combination between artistry and engineering.",
-      name: "Bill Gates",
+      name: "project3",
+      description: "mobileapp",
+      imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
+    },
+    {
+      name: "project4",
+      description: "mobileapp",
+      imgurl: "images/react3.png",
+      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      url: "https://www.google.com",
     },
   ],
 };

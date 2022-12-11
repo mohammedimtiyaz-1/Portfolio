@@ -8,6 +8,7 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
 import Skills from "./components/SkillsNew";
+import Certification from "./components/Certification";
 class App extends Component {
   render() {
     return (
@@ -18,6 +19,7 @@ class App extends Component {
         <Skills resumeData={resumeData} />
         <Portfolio resumeData={resumeData} />
         {/* <Testimonials resumeData={resumeData}/> */}
+        <Certification resumeData={resumeData} />
         <ContactUs />
         <Footer />
       </div>

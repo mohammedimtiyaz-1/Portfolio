@@ -3,27 +3,25 @@ export default class ContactUs extends Component {
   render() {
     return (
       <section id="contact">
-        <div>
+        <div className="main">
           <div className="row section-head">
             <div className="ten columns">
               <p>contact</p>
             </div>
           </div>
           <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
+            <aside className="">
+              <div className="">
                 <h4>
-                  {" "}
                   <a href="">
                     <i className="fa fa-linkedin-square"> </i>
                     <span> Mohammed Imtiyaz</span>{" "}
                   </a>
                 </h4>
                 <h4>
-                  {" "}
                   <a href="">
                     <i className="fa fa-envelope"> </i>
-                    <span>mohammedimtiyaz.jk@gamil.com</span>{" "}
+                    <span>mohammedimtiyaz.jk@yahoo.com</span>{" "}
                   </a>
                 </h4>
                 <h4>
@@ -39,7 +37,7 @@ export default class ContactUs extends Component {
                     target="_blank"
                   >
                     <i className="fa fa-github"> </i>
-                    <span> github </span>
+                    <span> Github </span>
                   </a>
                 </h4>
                 <h4>
@@ -48,7 +46,7 @@ export default class ContactUs extends Component {
                     target="_blank"
                   >
                     <i className="fa fa-twitter"> </i>
-                    <span> twitter </span>
+                    <span> Twitter </span>
                   </a>
                 </h4>
               </div>

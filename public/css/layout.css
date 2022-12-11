@@ -239,7 +239,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -254,6 +254,9 @@ ul#nav li.current a {
   color: #313131;
 }
 
+#resume .row {
+  max-width: 1400px;
+}
 #resume .row .item{
   margin-bottom:15px;
   padding-bottom: 9px;
@@ -272,6 +275,7 @@ ul#nav li.current a {
 }
 #resume h1 span {
   border-bottom: 3px solid #38d98194;
+  color:#38d98194;
   padding-bottom: 6px;
 }
 #resume h3 {
@@ -306,11 +310,15 @@ ul#nav li.current a {
   margin-top: 6px;
 }
 #resume .tech {
+  font-size: 2rem;
+  
+  margin:20px;
+  align-items: center;
   display: flex;
   gap: 10px;
 }
 #resume ol p { 
-  
+  font-size: 1.5rem;
   list-style:square outside ;
      display:list-item; 
   
@@ -320,7 +328,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+ 
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -330,6 +338,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
+  color: #38d98194;
 }
 
 /* Portfolio Content */
@@ -421,7 +430,7 @@ ul#nav li.current a {
   font: 16px/25px "opensans-bold", sans-serif;
   color: #fff;
   text-decoration: underline;
-  text-decoration-color: darkgreen;
+  text-decoration-color: #38d98194;
   text-transform: uppercase;
 }
 .portfolio-item .portfolio-item-meta p {
@@ -764,36 +773,34 @@ call-to-action .button {
   background: #191919;
   padding-top: 96px;
   padding-bottom: 102px;
-  color: #636363;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+#contact .main{
+  min-width: 800px;
 }
 #contact .section-head {
   margin-bottom: 42px;
 }
 #contact .section-head p {
-  color: darkgreen;
+  color: #38d98194;
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-#contact h4 {
-  color: darkgreen;
-}
 
-#contact a,
-#contact a:visited {
+#contact a:hover{
   color: #38d98194;
 }
-#contact a:hover,
-#contact a:focus {
-  color: #fff;
+#contact a:visited{
+  color: #ebeeee;
 }
 
 #contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 2rem "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #ebeeee;
@@ -814,92 +821,22 @@ call-to-action .button {
 }
 
 #contact h4 {
-  font: 16px/24px "opensans-bold", sans-serif;
   color: #ebeeee;
-  margin-bottom: 6px;
+  font-size: 2rem;
+  margin: 6px;
 }
 
-#contact .header-col {
-  padding-top: 6px;
+#contact h4 span{
+  
+  margin: 10px;
 }
 
-/* contact form */
-#contact form {
-  margin-bottom: 30px;
-}
-#contact label {
-  font: 15px/24px "opensans-bold", sans-serif;
-  margin: 12px 0;
-  color: #ebeeee;
-  display: inline-block;
-  float: left;
-  width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-  padding: 18px 20px;
-  color: #eee;
-  background: #373233;
-  margin-bottom: 42px;
-  border: 0;
-  outline: none;
-  font-size: 15px;
-  line-height: 24px;
-  width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-  color: #fff;
-  background-color: #38d98194;
-}
-#contact button.submit {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-  background: #0d0d0d;
-  border: none;
-  cursor: pointer;
-  height: auto;
-  display: inline-block;
-  border-radius: 3px;
-  margin-left: 26%;
-}
-#contact button.submit:hover {
-  color: #0d0d0d;
-  background: #fff;
-}
-#contact span.required {
-  color: #38d98194;
-  font-size: 13px;
-}
-#message-warning,
-#message-success {
-  display: none;
-  background: #0f0f0f;
-  padding: 24px 24px;
-  margin-bottom: 36px;
-  width: 65%;
-  margin-left: 26%;
-}
-#message-warning {
-  color: #d72828;
-}
-#message-success {
-  color: #38d98194;
+#contact i{
+  width: 40px;
+  height: 40px;
+  display: table-cell;
 }
 
-#message-warning i,
-#message-success i {
-  margin-right: 10px;
-}
-#image-loader {
-  display: none;
-  position: relative;
-  left: 18px;
-  top: 17px;
-}
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
@@ -943,5 +880,5 @@ footer {
   border-radius: 100%;
 }
 #go-top a:hover {
-  background-color: darkgreen;
+  background-color: #38d98194;
 }

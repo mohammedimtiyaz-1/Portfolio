@@ -52,12 +52,13 @@ justify-content: space-around;
 }
 #skills b:hover{
   scale: 1.50;
-  color: darkgreen;
+  color: #38d98194;
   
   transition: 0.75s all ease-in-out;
  }
 #skills h2{
-  color: darkgreen;
+  font-size: 3rem;
+  color: #38d98194 !important;
   text-transform: uppercase;
   text-align: center;
 }
@@ -105,7 +106,7 @@ justify-content: space-around;
 
 #project  .close:hover,
 #project  .close:focus {
-  color: darkgreen;
+  color: #38d98194;
   text-decoration: none;
   cursor: pointer;
 }

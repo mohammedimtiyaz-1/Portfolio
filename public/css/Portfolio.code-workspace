@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../../portfolio-nextjs-new/public/assets/skills"
+	}
+],
+  "settings": {}
+}
