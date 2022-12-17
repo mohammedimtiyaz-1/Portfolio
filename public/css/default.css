@@ -276,7 +276,7 @@ abbr:hover { cursor: help; }
 	font-family: /* Copperplate */ 'opensans-bold', sans-serif;
    line-height: 60px;
 	text-indent: 0;
-	background: transparent;
+	background: black !important;
 	color: inherit;
 }
 

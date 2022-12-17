@@ -46,7 +46,7 @@ let resumeData = {
       CompanyName: "Decathlon",
       specialization: "Senior Front Developer",
       MonthOfLeaving: "",
-      tech: ["js", "html5", "D3.js", "css3", "git", "github"],
+      tech: ["Javascript", "Html5", "Css3", "Git", "Github"],
       YearOfLeaving: "...Presently working",
       Achievements: [
         "Experience on building the high traffic customer facing Website - Decathlon Online Shopping App (DOSA) website ecommerce.",
@@ -69,7 +69,7 @@ let resumeData = {
       specialization: "Development Engineer | Front End React",
       join: "Aug 2018",
       leave: "May 2021",
-      tech: ["js", "html5", "D3.js", "css3", "git", "github"],
+      tech: ["Javascript", "Html5", "Css3", "Git", "Github"],
       Achievements: [
         "Transformation of design wireframes to responsive web application and implementation of reusable UI components using React.js",
         "Responsible for Integration of REST APIs to UI &incorporated unit tests with Jest.",
@@ -93,7 +93,7 @@ let resumeData = {
       specialization: "Intern  | Junior Developer",
       join: "Aug 2017",
       leave: "Aug 2018",
-      tech: ["js", "html5", "D3.js", "css3", "git", "github"],
+      tech: ["Javascript", "Html5", "Css3", "Git", "Github"],
       Achievements: [
         "Developed  SandBox environment for RESTful APIs that programs the simulation of Sensor devices.",
         "Developed Dashboard that generates the query-able  UI report on external CSV energy statistics using D3.js",
@@ -103,10 +103,10 @@ let resumeData = {
 
   skills: [
     {
-      skillname: "HTML5",
+      skillname: "Html5",
     },
     {
-      skillname: "CSS3",
+      skillname: "Css3",
     },
     {
       skillname: "JavaScript",
@@ -131,28 +131,28 @@ let resumeData = {
       description:
         "Developed web app, generates the queryable UI report on external CSV energy statistics using D3.js.",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
     {
       name: "project2",
       description: "mobileapp",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
     {
       name: "project3",
       description: "mobileapp",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
     {
       name: "project4",
       description: "mobileapp",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
   ],
@@ -162,28 +162,28 @@ let resumeData = {
       description:
         "Developed web app, generates the queryable UI report on external CSV energy statistics using D3.js.",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
     {
       name: "project2",
       description: "mobileapp",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
     {
       name: "project3",
       description: "mobileapp",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
     {
       name: "project4",
       description: "mobileapp",
       imgurl: "images/react3.png",
-      tech: ["D3js", "HTML5", "Chart.js", "CSS3"],
+      tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
     },
   ],

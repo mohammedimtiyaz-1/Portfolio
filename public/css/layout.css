@@ -2,6 +2,9 @@ body {
   background: #0f0f0f;
 }
 
+body p h1 h3{ 
+  color: #fff;
+}
 header {
   position: relative;
   height: 800px;
@@ -180,7 +183,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #2b2b2b;
+  background: black;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -239,10 +242,15 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  
+  background: black;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
+  color: #fff !important;
+}
+
+#resume h3{
+  color:#fff;
 }
 
 #resume a,
@@ -251,7 +259,7 @@ ul#nav li.current a {
 }
 #resume a:hover,
 #resume a:focus {
-  color: #313131;
+  color: #38d98194;
 }
 
 #resume .row {
@@ -260,7 +268,7 @@ ul#nav li.current a {
 #resume .row .item{
   margin-bottom:15px;
   padding-bottom: 9px;
-  border-bottom:1px dotted #00cccc;
+  border-bottom:1px dotted #38d98194;
 }
 #resume .row .item:last-child{
   margin-bottom:15px;
@@ -272,6 +280,7 @@ ul#nav li.current a {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: #fff;
 }
 #resume h1 span {
   border-bottom: 3px solid #38d98194;
@@ -297,7 +306,7 @@ ul#nav li.current a {
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
-  color: #6e7881;
+  color: #fff;
   margin-bottom: 9px;
   margin-top: 9px;
 }
@@ -311,13 +320,13 @@ ul#nav li.current a {
 }
 #resume .tech {
   font-size: 2rem;
-  
+  color: #fff;
   margin:20px;
   align-items: center;
   display: flex;
   gap: 10px;
 }
-#resume ol p { 
+#resume ol p { color: #fff;
   font-size: 1.5rem;
   list-style:square outside ;
      display:list-item; 
@@ -328,7 +337,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
- 
+ background: black;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -347,7 +356,7 @@ ul#nav li.current a {
   flex-wrap: wrap;
 }
 .portfolio-item .item-wrap {
-  background: #fff;
+  background: black;
   overflow: hidden;
   position: relative;
   height: 300px;
@@ -496,7 +505,7 @@ ul#nav li.current a {
   cursor: pointer;
 }
 .popup-modal a:hover {
-  color: #00cccc;
+  color: #38d98194;
 }
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;

@@ -1,4 +1,5 @@
 import React from "react";
+import Icons from "./Icons";
 
 function Project({ i, setModal, data }) {
   return (
@@ -17,9 +18,9 @@ function Project({ i, setModal, data }) {
               </div>
               <div className="tech">
                 <h3>Tools Technology</h3>
-                <div>
+                <div className="tech-icons">
                   {data.tech.map((e) => (
-                    <p>{e}</p>
+                    <Icons name={e} />
                   ))}
                 </div>
               </div>

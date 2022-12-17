@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Icons from "./Icons";
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -65,7 +66,7 @@ export default class Resume extends Component {
                         <div className="tech">
                           Tech Stack :{" "}
                           {item.tech.map((t) => (
-                            <b>{t}</b>
+                            <Icons name={t} />
                           ))}
                         </div>
                       </div>
