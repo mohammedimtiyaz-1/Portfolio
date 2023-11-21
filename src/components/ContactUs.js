@@ -13,19 +13,19 @@ export default class ContactUs extends Component {
             <aside className="">
               <div className="">
                 <h4>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/mohammedimtiyaz-01/">
                     <i className="fa fa-linkedin-square"> </i>
                     <span> Mohammed Imtiyaz</span>{" "}
                   </a>
                 </h4>
                 <h4>
-                  <a href="">
+                  <a href="#">
                     <i className="fa fa-envelope"> </i>
                     <span>mohammedimtiyaz.jk@yahoo.com</span>{" "}
                   </a>
                 </h4>
                 <h4>
-                  <a href="">
+                  <a href="#">
                     <i className="fa fa-phone"> </i>
                     <span> +91 8197197997</span>
                   </a>
