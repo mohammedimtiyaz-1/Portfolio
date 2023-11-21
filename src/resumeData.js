@@ -3,7 +3,7 @@ let resumeData = {
   role: "Front End React Developer",
   linkedinId: "mohammedimtiyaz-01",
   roleDescription:
-    " And I'm Passionate, detail-oriented, enthusiastic software professional. Seeking to deliver secure web application with quality development",
+    " And I'm Passionate, detail-oriented, enthusiastic software professional. Always Seeking to deliver high performant,scalable & secure web application with quality development",
   socialLinks: [
     {
       name: "linkedin",
@@ -22,8 +22,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "3.4 years of experience in IT industry Fast-paced Environment on Web applications development as a front end developer in end-to-end software delivery along with solving challenges & efficiency.",
-
+    "I am 6+ years Experienced Web Front-End Developer | Expert in React Ecosystem | Crafting Aesthetic, Scalable, Secure UI for Enhanced UX | Proven track record from project scripting to scaling for millions of users | Passionate about Productive DX, Releases, and End-User Monitoring | Design Systems to Component Libraries for Harmonious Interfaces | Advocate of Secure Web Applications with a Challenge-Reward Philosophy | Tech Article Writer, Open Source Contributor, and Part-Time Mentor.",
   phone: "8197197997",
   education: [
     {
@@ -127,30 +126,40 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: "Decathlon ecommerce -Professional",
+      description: "Sells Sports products online with omni channel presence",
+      imgurl: "images/decathlon.jpeg",
+      tech: ["nextjs", "Html5", "Css3", "tailwind"],
+      url: "https://www.decathlon.in",
+    },
+    {
+      name: "Movie Explorer",
+      description:
+        "This Website is a simple search dashboard to explore the universities based on the important criterion. This is useful for the student who aspires to study abroad",
+      imgurl: "images/alglia.jpeg",
+      tech: ["Javascript", "Nextjs", "tailwind", "Html5", "Css3"],
+      url: "https://movie-explorer-kujcwazhp-mohammedimtiyaz-1.vercel.app/",
+    },
+    {
+      name: "The News App -",
+      description:
+        "This Website is a News app which fetches data from News API across major categories. The News are Relevant to the time.",
+      imgurl: "images/news.jpeg",
+      tech: ["nextjs", "free api", "Javascript", "Html5", "Css3"],
+      url: "https://news-board-bay.vercel.app/",
+    },
+    {
+      name: "University Explorer ",
+      description:
+        "This Website is a simple search dashboard to explore the universities based on the important criterion. This is useful for the student who aspires to study abroad",
+      imgurl: "images/university.jpeg",
+      tech: ["nextjs", "algolia", "Javascript", "Html5", "Css3"],
+      url: "https://algoliasearch.versel.com/",
+    },
+    {
       name: "Error And Fault Dashboard Analysis",
       description:
         "Developed web app, generates the queryable UI report on external CSV energy statistics using D3.js.",
-      imgurl: "images/react3.png",
-      tech: ["Javascript", "Html5", "Css3"],
-      url: "https://www.google.com",
-    },
-    {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/react3.png",
-      tech: ["Javascript", "Html5", "Css3"],
-      url: "https://www.google.com",
-    },
-    {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/react3.png",
-      tech: ["Javascript", "Html5", "Css3"],
-      url: "https://www.google.com",
-    },
-    {
-      name: "project4",
-      description: "mobileapp",
       imgurl: "images/react3.png",
       tech: ["Javascript", "Html5", "Css3"],
       url: "https://www.google.com",
