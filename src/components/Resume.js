@@ -55,7 +55,7 @@ export default class Resume extends Component {
                         </em>
                       </p>
 
-                      <div>
+                      <div style={{ fontSize: "18px" }}>
                         <div>
                           <ol style={{ paddingLeft: "3rem" }}>
                             {item.Achievements.map((e) => (

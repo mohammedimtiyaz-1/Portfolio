@@ -173,27 +173,26 @@ let resumeData = {
       tech: ["React"],
       url: "https://www.google.com",
     },
+
     {
       name: "Certificatin of Excellence for the year",
       description:
         "awarded for the contribution & growth of the Decahtlon Ecommerce",
       imgurl: "images/certificate.jpg",
-      tech: [
-        "typescript",
-        "nextjs",
-        "CMS",
-        "algolia",
-        "tailwind",
-        "Javascript",
-        "Html5",
-        "Css3",
-      ],
+      tech: ["scrum"],
       url: "https://www.google.com",
     },
     {
       name: " Certificate of JS Expert ",
-      description: "ecured 92 % in JS on plural sight ",
+      description: "Secured 92 % in JS on plural sight ",
       imgurl: "images/js_expert.png",
+      tech: ["Javascript"],
+      url: "https://www.scrum.org/resources/what-scrum-module",
+    },
+    {
+      name: "Certified Scrum Practisioner",
+      description: "2 days workshop on Certified Scrum Practisioner",
+      imgurl: "images/scrum.webp",
       tech: ["Javascript"],
       url: "https://www.google.com",
     },

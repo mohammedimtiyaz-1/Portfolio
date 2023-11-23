@@ -187,6 +187,7 @@ ul#nav li.current a {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
+  font-size: 18px;
 }
 
 #about a,
@@ -247,6 +248,7 @@ ul#nav li.current a {
   padding-bottom: 72px;
   overflow: hidden;
   color: #fff !important;
+  font-size: 18px;
 }
 
 #resume h3{
@@ -327,7 +329,7 @@ ul#nav li.current a {
   gap: 10px;
 }
 #resume ol p { color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   list-style:square outside ;
      display:list-item; 
   
